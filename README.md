@@ -20,6 +20,7 @@ If the total is less tha one, it is flagged as an arbitrage opportunity.
 - [X] Implement SportsBet and PointsBet Scraping
 - [X] Add sentence embedding-based market matching
 - [X] Calculate arbitrage opportunities
+- [ ] Add more betting sites for wider range of rates
 - [ ] Handle multi-line bets (bets with 3+ outcomes)
 - [ ] Add profit margin estimator with most optimal bets to place
 - [ ] Calculate most optimal arbitrage across all the sports, rather than just picking one
