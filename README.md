@@ -7,7 +7,7 @@ Arbitrage is a clever way to make guaranteed profit from betting sites. Sites so
 - First scrapes JSON data from Sportsbet and PointsBet APIs, extracting betting lines and rates from both sources
 - Converts market names into sentence embeddings using 'sentence-transfomers'
 - Matches semantically similar markets using cosine similarity
-- Detects arbitrate opportunities using implied probability formula < 1
+- Detects arbitrage opportunities using implied probability formula < 1
 - (Optional) utilises Google's embedding API to more accurately match pairs (However API is't free for this amount of use)
 
 ## ⚙️ How it works ⚙️
@@ -17,7 +17,7 @@ SportsBet and PointsBet use different market names, it is hard to manually match
   <img src="https://github.com/user-attachments/assets/0d155739-c755-42ba-ab38-c717bba2d2ed" alt="Equation" />
 </p>
 
-If the total is less tha one, it is flagged as an arbitrage opportunity.
+If the total is less than one, it is flagged as an arbitrage opportunity.
 
 ## ✅ To-Do List ✅
 - [X] Implement SportsBet and PointsBet Scraping
