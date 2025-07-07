@@ -1,7 +1,7 @@
 Detects sports betting arbitrage opportunities using NLP-based embedding similarities between differing market names
 
 ## Introduction
-Arbitrage is a clever way to make guaranteed profit from betting sites. Sites sometimes are inconsistent in their betting rates, causing an arbitrage opportunity to arise. What this means is, you hedge bets on both outcomes, with varying amounts such that either outcome winning would yield you an overall profit. To find these bets means you would need to scour multiple betting sites to check rates, and plug it into the arbitrage opportunity formula to see if it yields profit. This script aims to automate that process, directly scraping JSON files from the betting websites to gather betting data, and comparing rates to find arbitrage opportunities.
+Arbitrage is a clever way to make guaranteed profit from betting sites. Sites sometimes are inconsistent in their betting rates, causing an arbitrage opportunity to arise. What this means is, you hedge bets on opposite outcomes, with varying amounts such that either outcome winning would yield you an overall profit. To find these bets means you would need to scour multiple betting sites to check rates, and plug it into the arbitrage opportunity formula to see if it yields profit. This script aims to automate that process, directly scraping JSON files from the betting websites to gather betting data, and comparing rates to find arbitrage opportunities.
 
 ## 🔍 What it does 🔍
 - First scrapes JSON data from Sportsbet and PointsBet APIs, extracting betting lines and rates from both sources
